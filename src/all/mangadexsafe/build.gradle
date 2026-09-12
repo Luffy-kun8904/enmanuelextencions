@@ -1,0 +1,12 @@
+ext {
+    extName = 'MangaDex Safe'
+    extClass = '.MangaDexSafe'
+    extVersionCode = 1
+    extNames = ["MangaDex Safe"]
+}
+
+apply from: "$rootDir/common.gradle"
+
+dependencies {
+    implementation("org.jsoup:jsoup:1.22.2")
+}
