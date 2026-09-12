@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "required_files_checked": 12,
+  "source_invariants_checked": 12,
+  "post_generation_fix": "Removed invalid libVersion override from extension module and added configurable repo publishing workflow."
+}
